@@ -13,12 +13,16 @@
             height: 100vh;
             margin: 0;
             background-color: #f0f0f0;
+            font-family: 'Fira Code', 'Courier New', monospace;
+            color: #333;
         }
         img {
             max-width: 80%;
             height: auto;
             cursor: zoom-in;
             background-color: hsl(0, 0%, 90%);
+            border: 1px solid #ccc;
+            border-radius: 8px;
         }
         .credit {
             margin-top: 10px;
@@ -26,11 +30,16 @@
             color: #555;
             font-style: italic;
         }
+        .reference {
+            margin-top: 5px;
+            font-size: 16px;
+            color: #777;
+        }
     </style>
 </head>
 <body>
     <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F994C05375C344A0A07" alt="Convolution Layer">
     <div class="credit">freshapple123</div>
-    <p>Source: <a href="http://deeplearning.stanford.edu/wiki/images/6/6c/Convolution_schematic.gif" target="_blank">Stanford Deep Learning Tutorial</a></p>
+    <div class="reference">참고: Stanford CS231n</div>
 </body>
 </html>
